@@ -22,6 +22,6 @@ function deepestChild() {
   const secondDiv = firstDiv.children[0];
   const thirdDiv = secondDiv.children[0];
   const fourthDiv = thirdDiv.children[0];
-  return fourthDiv.innerHTML;
+  return fourthDiv;
 }
 
